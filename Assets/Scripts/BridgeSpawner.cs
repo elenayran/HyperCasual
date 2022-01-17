@@ -13,6 +13,7 @@ public class BridgeSpawner : MonoBehaviour
         // magnitude yön vektörünün aðýrlýðý ,  yön vektörü de iki referans arasýndaki mesafe verecek
         float distance = direction.magnitude;
         direction = direction.normalized;
+        hiddenPlatform.transform.forward = direction;
     }
 
    
