@@ -204,3 +204,4 @@ Received Import Request.
 Start importing Assets/Scripts/BridgeSpawner.cs using Guid(e4a2d4841f1e2c84c8b1bc1f46d5860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0b10372ed6e029cf85c62d6788cbd5') in 0.006491 seconds 
   Import took 0.008439 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
