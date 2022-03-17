@@ -3375,6 +3375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1589862790}
+  - component: {fileID: 1589862791}
   m_Layer: 0
   m_Name: BridgeSpawner
   m_TagString: Untagged
@@ -3399,6 +3400,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1589862791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589862789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4a2d4841f1e2c84c8b1bc1f46d5860a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startReference: {fileID: 0}
+  endReference: {fileID: 0}
+  hiddenPlatform: {fileID: 0}
 --- !u!4 &1592253761 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4608505924557460195, guid: 47f30297aaa612241b034f3db85f079e, type: 3}
