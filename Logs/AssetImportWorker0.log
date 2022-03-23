@@ -643,3 +643,4 @@ Received Import Request.
 Start importing Assets/Prefabs/Bridge Piece.prefab using Guid(2bc03a28fcd3ac5469fbf53eb3e835a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9e32a21dfaef6de4bc7788e380e380') in 0.053649 seconds 
   Import took 0.056888 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
