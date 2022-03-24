@@ -21,12 +21,16 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         Current = this;
-        _currentRunningSpeed = runningSpeed;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (LevelController.Current == null || !LevelController.Current.gameActive)
+        {
+            return;
+        }
         float newX = 0;
         float touchXDelta = 0;
         if (Input.touchCount > 0 && Input.GetTouch(0).phase== TouchPhase.Moved)
@@ -65,6 +69,11 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+    }
+
+    public void ChangeSpeed(float value)
+    {
+        _currentRunningSpeed = value;
     }
     private void OnTriggerEnter(Collider other)
     {
