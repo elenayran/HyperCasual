@@ -16,11 +16,14 @@ public class PlayerController : MonoBehaviour
     public GameObject bridgePiecePrefab;
     private BridgeSpawner _bridgeSpawner;
     private float _creatingBridgeTimer;
+
+    public Animator animator;
     //public float xMin, xMax;
     // Start is called before the first frame update
     void Start()
     {
         Current = this;
+       
         
     }
 
